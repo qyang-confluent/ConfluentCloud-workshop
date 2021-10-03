@@ -2,9 +2,9 @@
     <img src="images/confluent.png" width=50% height=50%>
 </div>
 
-# <div align="center">Confluent Commercial SE Workshop Repository</div>
+# <div align="center">Radian Demo and Workshop repository</div>
 
-This repository contains workshops and workshop series created and presented by Confluent's Commercial SE team. The team will continuously add more content over time. Take a look below at the current list of workshop series and workshops. Their hyperlinks will take you to the right content in the repository. 
+This repository contains workshop content tailored to be run for Radian.Take a look below at the current list of workshop series and workshops. Their hyperlinks will take you to the right content in the repository. 
 
 ## Series
 
