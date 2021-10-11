@@ -21,15 +21,15 @@ Tabor Center, One Tabor Center, 1200 17th St, Denver, CO 80202, USA - Room 10G, 
 
 | Topic | Time | Speaker |
 | --- | --- | --- |
-| Workshop Kickoff | 10:00 - 10:15 | Ryan Striano - Confluent |
-| Review Radian Use-Cases | 10:15 - 11:00 | <b>TBD by Radian</b> |
-| e2e Accelerator | 11:00 - 11:30 | Chris Urban - Confluent |
-| Break | 11:30 - 11:45 |  |
-| Hands-on Workshop Demo | 11:45 - 1:00 | Ravi Appalla - Confluent |
-| Lunch | 1:00 - 2:00 | Will be coordinated by Confluent Team |
-| Hands-on Workshop | 2:00 - 3:45 | Radian team to try hands-on labs, will be supported by Confluent Team |
-| Break | 3:45 - 4:00 |  |
-| POC Evaluation Roadmap | 4:00 - 5:00 | <b>TBD by Radian</b>  |
+| Workshop Kickoff |  10:00 - 10:15  | Ryan Striano - Confluent |
+| Review Radian Use-Cases |  10:15 - 11:00  | <b>TBD by Radian</b> |
+| e2e Accelerator |  11:00 - 11:30  | Chris Urban - Confluent |
+| Break |  11:30 - 11:45  |  |
+| Hands-on Workshop Demo |  11:45 - 1:00  | Ravi Appalla - Confluent |
+| Lunch |  1:00 - 2:00  | Will be coordinated by Confluent Team |
+| Hands-on Workshop |  2:00 - 3:45  | Radian team to try hands-on labs, will be supported by Confluent Team |
+| Break |  3:45 - 4:00  |  |
+| POC Evaluation Roadmap |  4:00 - 5:00  | <b>TBD by Radian</b>  |
 
 ## Topics Covered in the Demo and Workshop:
 1. [Log into Confluent Cloud](#step-1)
