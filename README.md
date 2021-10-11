@@ -23,7 +23,7 @@ Tabor Center, One Tabor Center, 1200 17th St, Denver, CO 80202, USA - Room 10G, 
 | --- |  ---  | --- |
 | Workshop Kickoff |  10:00 - 10:15  | Ryan Striano - Confluent |
 | Review Radian Use-Cases |  10:15 - 11:00  | <b>TBD by Radian</b> |
-| e2e Accelerator |  11:00 - 11:30  | Chris Urban - Confluent |
+| e2e Accelerator |  11:00 - 11:30  | Paul Earsy/Chris Urban - Confluent |
 | Break |  11:30 - 11:45  |  |
 | Hands-on Workshop Demo |  11:45 - 1:00  | Ravi Appalla - Confluent |
 | Lunch |  1:00 - 2:00  | Will be coordinated by Confluent Team |
