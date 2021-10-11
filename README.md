@@ -43,14 +43,13 @@ Tabor Center, One Tabor Center, 1200 17th St, Denver, CO 80202, USA - Room 10G, 
 9. [Aggregate data](#step-9)
 10. [Windowing Operations and Fraud Detection](#step-10)
 11. [Pull Queries](#step-11)
-12. [Create an API Key Pair](#step-12)
-13. [Enable Schema Registry](#step-13)
-14. [Set Up: Connect Self Managed Services to Confluent Cloud](#step-14)
-15. [Deploy: Connect Self Managed Services to Confluent Cloud](#step-15)
-16. [Launch: PostgreSQL Source Connector in Confluent Control Center](#step-16)
-17. [Confluent Cloud Schema Registry](#step-17)
-18. [Clean Up Resources](#step-18)
-19. [Confluent Resources and Further Testing](#step-19)
+12. [Enable Schema Registry](#step-13)
+13. [Set Up: Connect Self Managed Services to Confluent Cloud](#step-14)
+14. [Deploy: Connect Self Managed Services to Confluent Cloud](#step-15)
+15. [Launch: PostgreSQL Source Connector in Confluent Control Center](#step-16)
+16. [Confluent Cloud Schema Registry](#step-17)
+17. [Clean Up Resources](#step-18)
+18. [Confluent Resources and Further Testing](#step-19)
 
 ***
 
@@ -448,7 +447,7 @@ There are a few different Windowing operations you can use with ksqlDB. You can 
 ```sql
 CREATE TABLE stocks_purchased_today AS
     SELECT symbol,
-           COUNT(*) AS quantity,
+           COUNT(*) AS quantity
     FROM stocks_enriched
     WINDOW TUMBLING (SIZE 5 MINUTES)
     GROUP BY symbol;
@@ -519,19 +518,7 @@ SELECT * FROM STOCKS_ENRICHED
 ```
 ***
 
-## <a name="step-12"></a>**Create an API Key Pair**
-
-1. Select **API keys** on the navigation menu. 
-2. If this is your first API key within your cluster, click **Create key**. If you have set up API keys in your cluster in the past and already have an existing API key, click **+ Add key**.
-    <div align="center" padding=25px>
-       <img src="images/create-cc-api-key.png" width=50% height=50%>
-    </div>
-
-3. Select **Global Access**, then click Next.
-4. Save your API key and secret - you will need these during the workshop.
-5. After creating and saving the API key, you will see this API key in the Confluent Cloud UI in the **API keys** tab. If you don’t see the API key populate right away, refresh the browser. 
-
-## <a name="step-13"></a>**Enable Schema Registry**
+## <a name="step-12"></a>**Enable Schema Registry**
 
 A topic contains messages, and each message is a key-value pair. The message key or the message value (or both) can be serialized as JSON, Avro, or Protobuf. A schema defines the structure of the data format. 
 
@@ -553,7 +540,7 @@ You will be exploring Confluent Cloud Schema Registry in more detail towards the
 4. Click on **Add key** and save your API key and secret - you will also need these during the workshop. Click on **Done**.
 5. **Important**: Make note of the **API endpoint**. You will use this endpoint in one of the steps later in the workshop.
 
-## **<a name="step-14"></a>Set up and Connect Self Managed Services to Confluent Cloud**
+## **<a name="step-13"></a>Set up and Connect Self Managed Services to Confluent Cloud**
 
 Let’s say you have a database, or object storage such as AWS S3, Azure Blob Storage, or Google Cloud Storage, or a data warehouse such as Snowflake. How do you connect these data systems to your architecture?
 
@@ -627,7 +614,7 @@ Now that you have completed setting up your Confluent Cloud account, cluster, to
 
     If successful, your output will return: `{ }%`
 
-## <a name="step-15"></a>**Deploy: Connect Self Managed Services to Confluent Cloud**
+## <a name="step-14"></a>**Deploy: Connect Self Managed Services to Confluent Cloud**
 
 You are now ready to start your Confluent Platform services - Connect and Control Center. Both will be connected to your cluster in Confluent Cloud, which is what you accomplished in the earlier steps.
 
@@ -642,7 +629,7 @@ You are now ready to start your Confluent Platform services - Connect and Contro
 
 You have successfully installed the Debezium PostgreSQL CDC Source connector on your local Connect cluster. You also have a PostgreSQL database running in the container. These are all connected to Confluent Cloud. You are now ready to start producing data from your PostgreSQL database to Confluent Cloud.
 
-## <a name="step-16"></a>**Launch: PostgreSQL Source Connector in Confluent Control Center**
+## <a name="step-15"></a>**Launch: PostgreSQL Source Connector in Confluent Control Center**
 
 You have seen and worked within the Confluent Cloud Dashboard in the previous steps. Because you have Confluent Platform services deployed, you can use Confluent Control Center (C3) to manage and monitor Confluent Platform, and it is also connected to Confluent Cloud from your set up. You will see confirmation that Control Center is indeed connected to Confluent Cloud by the end of this step.
 
@@ -717,7 +704,7 @@ You have seen and worked within the Confluent Cloud Dashboard in the previous st
 
     > **Note:** The unrecognized characters are a plaintext representation of Avro.
 
-## <a name="step-17"></a>**Confluent Cloud Schema Registry**
+## <a name="step-16"></a>**Confluent Cloud Schema Registry**
 
 In this final section of the workshop, you will explore Confluent Cloud Schema Registry, which is used to manage and store a versioned history of all of your schemas. Confluent Cloud Schema Registry is fully-managed and supports JSON, Avro, and Protobuf.
 
@@ -746,7 +733,7 @@ In this final section of the workshop, you will explore Confluent Cloud Schema R
 6. Click on **View & Manage Schemas** to view a searchable list of all your schemas available in your Confluent Cloud environment.
 
 
-## <a name="step-18"></a>Clean Up Resources
+## <a name="step-17"></a>Clean Up Resources
 
 Deleting the resources you created during this workshop will prevent you from incurring additional charges. 
 
@@ -770,7 +757,7 @@ Deleting the resources you created during this workshop will prevent you from in
 
 *** 
 
-## <a name="step-19"></a>Confluent Resources and Further Testing
+## <a name="step-18"></a>Confluent Resources and Further Testing
 
 Here are some links to check out if you are interested in further testing:
 - [ksqlDB Tutorials](https://kafka-tutorials.confluent.io/)
