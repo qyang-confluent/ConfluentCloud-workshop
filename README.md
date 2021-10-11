@@ -43,13 +43,13 @@ Tabor Center, One Tabor Center, 1200 17th St, Denver, CO 80202, USA - Room 10G, 
 9. [Aggregate data](#step-9)
 10. [Windowing Operations and Fraud Detection](#step-10)
 11. [Pull Queries](#step-11)
-12. [Enable Schema Registry](#step-13)
-13. [Set Up: Connect Self Managed Services to Confluent Cloud](#step-14)
-14. [Deploy: Connect Self Managed Services to Confluent Cloud](#step-15)
-15. [Launch: PostgreSQL Source Connector in Confluent Control Center](#step-16)
-16. [Confluent Cloud Schema Registry](#step-17)
-17. [Clean Up Resources](#step-18)
-18. [Confluent Resources and Further Testing](#step-19)
+12. [Enable Schema Registry](#step-12)
+13. [Set Up: Connect Self Managed Services to Confluent Cloud](#step-13)
+14. [Deploy: Connect Self Managed Services to Confluent Cloud](#step-14)
+15. [Launch: PostgreSQL Source Connector in Confluent Control Center](#step-15)
+16. [Confluent Cloud Schema Registry](#step-16)
+17. [Clean Up Resources](#step-17)
+18. [Confluent Resources and Further Testing](#step-18)
 
 ***
 
@@ -540,7 +540,8 @@ You will be exploring Confluent Cloud Schema Registry in more detail towards the
 4. Click on **Add key** and save your API key and secret - you will also need these during the workshop. Click on **Done**.
 5. **Important**: Make note of the **API endpoint**. You will use this endpoint in one of the steps later in the workshop.
 
-## **<a name="step-13"></a>Set up and Connect Self Managed Services to Confluent Cloud**
+## <a name="step-13"></a>**Set up and Connect Self Managed Services to Confluent Cloud**
+
 
 Let’s say you have a database, or object storage such as AWS S3, Azure Blob Storage, or Google Cloud Storage, or a data warehouse such as Snowflake. How do you connect these data systems to your architecture?
 
