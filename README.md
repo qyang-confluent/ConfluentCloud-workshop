@@ -2,7 +2,7 @@
     <img src="images/confluent.png" width=50% height=50%>
 </div>
 
-# <div align="center">Radian Demo and Workshop repository</div>
+# <div align="center">Fanduel Demo and Workshop repository</div>
 
 This repository contains workshop content for Radian to be held on <b>10/12/2021</b> in Denver. Content with the lab instructions and hands-on guide will be updated before the workshop. Please see below for the details of the workshop and agenda: 
 
