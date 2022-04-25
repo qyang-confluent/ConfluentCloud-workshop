@@ -4,7 +4,7 @@
 
 # <div align="center">Fanduel Demo and Workshop repository</div>
 
-This repository contains workshop content for Radian to be held on <b>TBD</b> in Denver. Content with the lab instructions and hands-on guide will be updated before the workshop. Please see below for the details of the workshop and agenda: 
+This repository contains workshop content for Fanduel to be held on May 11th and 12th in Edinburgh, Scotland. Content with the lab instructions and hands-on guide will be updated before the workshop. Please see below for the details of the workshop and agenda: 
 
 ## Introduction
 
@@ -15,21 +15,21 @@ We welcome you to join Confluent team in a workshop to get started with data in 
 This workshop perfect for those looking to get started with Confluent Cloud and build the foundation of your use case with our experienced engineers. 
 
 ## Address: 
-Tabor Center, One Tabor Center, 1200 17th St, Denver, CO 80202, USA - Room 10G, 10th Floor
+Quartermile One Lauriston Place, 15 Lauriston Pl, Edinburgh EH3, UK
 
 ## Workshop Agenda:
 
 | Topic |  Time  | Speaker |
 | --- |  ---  | --- |
-| Workshop Kickoff |  10:00 - 10:15  | Ryan Striano - Confluent |
-| Review Radian Use-Cases |  10:15 - 11:00  | <b>TBD by Radian</b> |
-| e2e Accelerator |  11:00 - 11:30  | Paul Earsy/Chris Urban - Confluent |
+| Workshop Kickoff |  10:00 - 10:15  |Dan Elliman - Confluent |
+| Review Fanduel Use-Cases and Architecture |  10:15 - 11:00  | <b>TBD by Fanduel Team</b> |
+| Hybrid event streaming with Confluent and AWS Outposts|  11:00 - 11:30  | Joseph Morais/Ravi Appalla - Confluent |
 | Break |  11:30 - 11:45  |  |
 | Hands-on Workshop Demo |  11:45 - 1:00  | Ravi Appalla - Confluent |
 | Lunch |  1:00 - 2:00  | Will be coordinated by Confluent Team |
-| Hands-on Workshop |  2:00 - 3:45  | Radian team to try hands-on labs, will be supported by Confluent Team |
+| Hands-on Workshop |  2:00 - 3:45  | Fanduel team to try hands-on labs, will be supported by Confluent Team |
 | Break |  3:45 - 4:00  |  |
-| POC Evaluation Roadmap |  4:00 - 5:00  | <b>TBD by Radian</b>  |
+| POC Evaluation Roadmap |  4:00 - 5:00  | <b>TBD by Fanduel</b>  |
 
 ## Topics Covered in the Demo and Workshop:
 1. [Log into Confluent Cloud](#step-1)
