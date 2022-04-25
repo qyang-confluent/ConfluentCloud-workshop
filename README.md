@@ -22,12 +22,15 @@ Quartermile One Lauriston Place, 15 Lauriston Pl, Edinburgh EH3, UK
 | Topic |  Time  | Speaker |
 | --- |  ---  | --- |
 | Workshop Kickoff |  10:00 - 10:15  |Dan Elliman - Confluent |
-| Review Fanduel Use-Cases and Architecture |  10:15 - 11:00  | <b>TBD by Fanduel Team</b> |
+| Review Fanduel Use-Cases and Architecture |  10:15 - 11:00  | <b>Dan Elliman / Ravi Appalla</b> |
 | Hybrid event streaming with Confluent and AWS Outposts|  11:00 - 11:30  | Joseph Morais/Ravi Appalla - Confluent |
 | Break |  11:30 - 11:45  |  |
-| Hands-on Workshop Demo |  11:45 - 1:00  | Ravi Appalla - Confluent |
+| Confluent Intro and Hands-on Workshop Demo |  11:45 - 1:00  | Ravi Appalla - Confluent |
 | Lunch |  1:00 - 2:00  | Will be coordinated by Confluent Team |
-| Hands-on Workshop |  2:00 - 3:45  | Fanduel team to try hands-on labs, will be supported by Confluent Team |
+| Stream Lineage and Data Governance |  2:00 - 2:30  | Confluent PM |
+| Observability and Monitoring |  2:30 - 3:00  | Confluent PM |
+| Lunch |  1:00 - 2:00  | Will be coordinated by Confluent Team |
+| Hands-on Workshop |  3:00 - 3:45  | Fanduel team to try hands-on labs, will be supported by Confluent Team |
 | Break |  3:45 - 4:00  |  |
 | POC Evaluation Roadmap |  4:00 - 5:00  | <b>TBD by Fanduel</b>  |
 
@@ -44,9 +47,9 @@ Quartermile One Lauriston Place, 15 Lauriston Pl, Edinburgh EH3, UK
 10. [Windowing Operations and Fraud Detection](#step-10)
 11. [Pull Queries](#step-11)
 12. [Enable Schema Registry](#step-12)
-13. [Set Up: Connect Self Managed Services to Confluent Cloud](#step-13)
-14. [Deploy: Connect Self Managed Services to Confluent Cloud](#step-14)
-15. [Launch: PostgreSQL Source Connector in Confluent Control Center](#step-15)
+13. [CDC Source Connector with RDS](#step-13)
+14. [Sink Connector to S3 and Redshift](#step-14)
+15. [Optional: Databricks DeltaLake Sink Connector](#step-15)
 16. [Confluent Cloud Schema Registry](#step-16)
 17. [Clean Up Resources](#step-17)
 18. [Confluent Resources and Further Testing](#step-18)
