@@ -1,9 +1,9 @@
-<div align="right">
+<div align="center">
     <img src="images/fanduel.png" width=50% height=50%>
 </div>
 
 
-<div align="left">
+<div align="center">
     <img src="images/confluent.png" width=50% height=50%>
 </div>
 
