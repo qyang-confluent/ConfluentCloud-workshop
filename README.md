@@ -1,5 +1,9 @@
-<div align="center">
+<div align="left">
     <img src="images/confluent.png" width=50% height=50%>
+</div>
+
+<div align="right">
+    <img src="images/fanduel.png" width=50% height=50%>
 </div>
 
 # <div align="center">Fanduel Demo and Workshop repository</div>
