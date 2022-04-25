@@ -1,9 +1,9 @@
-<div align="left">
-    <img src="images/fanduel1.png" width=50% height=50%>
+<div align="center">
+    <img src="images/fanduel.png" width=50% height=50%>
 </div>
 
 
-<div align="right">
+<div align="center">
     <img src="images/confluent.png" width=50% height=50%>
 </div>
 
@@ -26,9 +26,9 @@ Quartermile One Lauriston Place, 15 Lauriston Pl, Edinburgh EH3, UK
 ## Workshop Agenda:
 
 | Topic |  Time  | Speaker |
-| --- |  ---  | --- |
+| --- |  -----  | --- |
 | Workshop Kickoff |  10:00 - 10:15  |Dan Elliman - Confluent |
-| Review Fanduel Use-Cases and Architecture |  10:15 - 11:00  | <b>Dan Elliman / Ravi Appalla</b> |
+| Review Fanduel Use-Cases and Architecture |  10:15 - 11:00  | Dan Elliman / Ravi Appalla |
 | Hybrid event streaming with Confluent and AWS Outposts|  11:00 - 11:30  | Joseph Morais/Ravi Appalla - Confluent |
 | Break |  11:30 - 11:45  |  |
 | Confluent Intro and Hands-on Workshop Demo |  11:45 - 1:00  | Ravi Appalla - Confluent |
