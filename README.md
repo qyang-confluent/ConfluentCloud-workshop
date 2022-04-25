@@ -28,11 +28,11 @@ Quartermile One Lauriston Place, 15 Lauriston Pl, Edinburgh EH3, UK
 | Topic | Time | Speaker |
 | --- | --- | --- |
 | Workshop Kickoff | 10:00 - 10:15 | Dan Elliman - Confluent |
-| Review Fanduel Use-Cases and <br/> Architecture |  10:15 - 11:00  | Dan Elliman / Ravi Appalla |
+| Review Fanduel Use-Cases and <br/> Architecture |  10:15 - 11:00  | Dan Elliman / Ravi Appalla - Confluent |
 | Break |  11:00 - 11:15  |  |
 | Confluent Introduction and <br/> Hands-on Workshop Demo |  11:15 - 12:30  | Ravi Appalla - Confluent |
 | Lunch |  12:30 - 1:30  | Will be coordinated by Confluent Team |
-| Workshop Environment setup |  1:30 - 1:45  | Fanduel team to try hands-on labs, will be supported by Confluent Team |
+| Workshop Environment setup |  1:30 - 1:45  | Fanduel team |
 | Streaming with Confluent and <br/> AWS Outposts using Cluster Linking|  1:45 - 2:30  | Joseph Morais/Ravi Appalla - Confluent |
 | Stream Lineage and Data Governance |  2:30 - 3:15  | Confluent PM |
 | Break |  3:15 - 3:30  |  |
@@ -49,7 +49,7 @@ Quartermile One Lauriston Place, 15 Lauriston Pl, Edinburgh EH3, UK
 | Break |  11:00 - 11:15  |  |
 | Value Asessment |  11:15 - 12:00  |  Fanduel Team  |
 | Lunch |  12:00 - 1:00  | Will be coordinated by Confluent Team |
-| Q&A and Workshop wrap-up |  1:00 - 2:00  | Will be coordinated by Confluent Team |
+| Q&A and Workshop wrap-up |  1:00 - 2:00  | Dan Elliman / Ravi Appalla - Confluent |
 
 
 
