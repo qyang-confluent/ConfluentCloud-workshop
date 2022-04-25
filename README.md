@@ -25,9 +25,9 @@ Quartermile One Lauriston Place, 15 Lauriston Pl, Edinburgh EH3, UK
 
 ## Workshop Agenda:
 
-| Topic |  Time  | Speaker |
-| --- |  -----  | --- |
-| Workshop Kickoff |   10:00 - 10:15   |Dan Elliman - Confluent |
+| Topic | Time | Speaker |
+| --- | --- | --- |
+| Workshop Kickoff | 10:00 - 10:15 |Dan Elliman - Confluent |
 | Review Fanduel Use-Cases and Architecture |  10:15 - 11:00  | Dan Elliman / Ravi Appalla |
 | Hybrid event streaming with Confluent and AWS Outposts|  11:00 - 11:30  | Joseph Morais/Ravi Appalla - Confluent |
 | Break |  11:30 - 11:45  |  |
