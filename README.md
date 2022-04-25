@@ -49,6 +49,7 @@ Quartermile One Lauriston Place, 15 Lauriston Pl, Edinburgh EH3, UK
 | Break |  11:00 - 11:15  |  |
 | Value Asessment |  11:15 - 12:00  |  Fanduel Team  |
 | Lunch |  12:00 - 1:00  | Will be coordinated by Confluent Team |
+| Q&A and Workshop wrap-up |  1:00 - 2:00  | Will be coordinated by Confluent Team |
 
 
 
