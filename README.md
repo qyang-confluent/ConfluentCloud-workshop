@@ -28,7 +28,7 @@ Quartermile One Lauriston Place, 15 Lauriston Pl, Edinburgh EH3, UK
 | Topic | Time | Speaker |
 | --- | --- | --- |
 | Workshop Kickoff | 10:00 - 10:15 | Dan Elliman - Confluent |
-| Review Fanduel Use-Cases\ and Architecture |  10:15 - 11:00  | Dan Elliman / Ravi Appalla |
+| Review Fanduel Use-Cases__ and Architecture |  10:15 - 11:00  | Dan Elliman / Ravi Appalla |
 | Break |  11:00 - 11:15  |  |
 | Confluent Intro and Hands-on Workshop Demo |  11:15 - 12:30  | Ravi Appalla - Confluent |
 | Lunch |  12:30 - 1:30  | Will be coordinated by Confluent Team |
