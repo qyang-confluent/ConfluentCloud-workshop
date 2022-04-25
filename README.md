@@ -47,7 +47,7 @@ Quartermile One Lauriston Place, 15 Lauriston Pl, Edinburgh EH3, UK
 | --- | --- | --- |
 | MVP Evaluation Roadmap |  10:00 - 11:00  |  Fanduel Team  |
 | Break |  11:00 - 11:15  |  |
-| Value Asessment |  11:15 - 12:00  |  Fanduel Team  |
+| Value Assessment |  11:15 - 12:00  |  Dan Elliman  |
 | Lunch |  12:00 - 1:00  | Will be coordinated by Confluent Team |
 | Q&A and Workshop wrap-up |  1:00 - 2:00  | Dan Elliman / Ravi Appalla - Confluent |
 
