@@ -16,9 +16,9 @@ This repository contains workshop content for Fanduel to be held on May 11th and
 
 Today’s modern customers value an end-to-end real-time experience. Businesses that are able to deliver real-time, personalized experiences need to be connected and fueled at all times by a constant supply of real-time event streams and continuous real-time processing. They need access to data in motion.
 
-We welcome you to join Confluent team in a workshop to get started with data in motion. Each session includes a virtual guided workshop on how you can use Confluent Cloud to explore event-driven architectures and how these measured and well-informed architectural decisions result in successful outcomes. 
+We welcome you to join the Confluent team in a workshop to get started with data in motion. Each session includes a virtual guided workshop on how you can use Confluent Cloud to explore event-driven architectures and how these measured and well-informed architectural decisions result in successful outcomes. 
 
-This workshop perfect for those looking to get started with Confluent Cloud and build the foundation of your use case with our experienced engineers. 
+This workshop is perfect for those looking to get started with Confluent Cloud and build the foundation of your use case with our experienced engineers. 
 
 ## Address: 
 Quartermile One Lauriston Place, 15 Lauriston Pl, Edinburgh EH3, UK
