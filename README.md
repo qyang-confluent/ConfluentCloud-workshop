@@ -23,7 +23,7 @@ This workshop perfect for those looking to get started with Confluent Cloud and 
 ## Address: 
 Quartermile One Lauriston Place, 15 Lauriston Pl, Edinburgh EH3, UK
 
-## Workshop Agenda:
+## Workshop Agenda - Day 1:
 
 | Topic | Time | Speaker |
 | --- | --- | --- |
@@ -38,7 +38,18 @@ Quartermile One Lauriston Place, 15 Lauriston Pl, Edinburgh EH3, UK
 | Lunch |  1:00 - 2:00  | Will be coordinated by Confluent Team |
 | Hands-on Workshop |  3:00 - 3:45  | Fanduel team to try hands-on labs, will be supported by Confluent Team |
 | Break |  3:45 - 4:00  |  |
-| POC Evaluation Roadmap |  4:00 - 5:00  | <b>TBD by Fanduel</b>  |
+
+
+## Workshop Agenda - Day 2:
+
+| Topic | Time | Speaker |
+| --- | --- | --- |
+| MVP Evaluation Roadmap |  10:00 - 11:00  |  Fanduel Team  |
+| Break |  11:00 - 11:15  |  |
+| Value Asessment |  11:15 - 12:00  |  Fanduel Team  |
+| Lunch |  12:00 - 1:00  | Will be coordinated by Confluent Team |
+
+
 
 ## Topics Covered in the Demo and Workshop:
 1. [Log into Confluent Cloud](#step-1)
