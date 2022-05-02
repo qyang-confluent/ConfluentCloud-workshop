@@ -33,7 +33,7 @@ Quartermile One Lauriston Place, 15 Lauriston Pl, Edinburgh EH3, UK
 | Confluent Introduction and <br/> Hands-on Workshop Demo |  11:15 - 12:30  | Ravi Appalla - Confluent |
 | Lunch |  12:30 - 1:30  | Will be coordinated by Confluent Team |
 | Workshop Environment setup |  1:30 - 1:45  | Fanduel team |
-| Streaming with Confluent and <br/> AWS Outposts using Cluster Linking|  1:45 - 2:30  | Joseph Morais/Ravi Appalla - Confluent |
+| Streaming with Confluent and <br/> AWS Outposts using Cluster Linking|  1:45 - 2:30  | Joseph Morais, Staff Partner Solutions Engineer |
 | Stream Lineage and Data Governance |  2:30 - 3:15  | Confluent PM |
 | Break |  3:15 - 3:30  |  |
 | Observability and Monitoring |  3:30 - 4:30  | Dustin Cote, Senior Product Manager |
