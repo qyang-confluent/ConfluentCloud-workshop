@@ -25,7 +25,7 @@ Quartermile One Lauriston Place, 15 Lauriston Pl, Edinburgh EH3, UK
 
 ## Workshop Agenda - Day 1:
 
-| Topic | Time | Speaker |
+| Topic | Time (GMT+1) | Speaker |
 | --- | --- | --- |
 | Workshop Kickoff | 10:00 - 10:15 | Dan Elliman - Confluent |
 | Review Fanduel Use-Cases and <br/> Architecture |  10:15 - 11:00  | Dan Elliman / Ravi Appalla - Confluent |
@@ -34,11 +34,11 @@ Quartermile One Lauriston Place, 15 Lauriston Pl, Edinburgh EH3, UK
 | Lunch |  12:30 - 1:30  | Will be coordinated by Confluent Team |
 | Workshop Environment setup |  1:30 - 1:45  | Fanduel team |
 | Streaming with Confluent and <br/> AWS Outposts using Cluster Linking|  1:45 - 2:30  | Joseph Morais, Staff Partner Solutions Engineer |
-| Stream Lineage and Data Governance |  2:30 - 3:15  | Confluent PM |
+| Observability and Monitoring |  2:30 - 3:15  | Dustin Cote, Senior Product Manager  |
 | Break |  3:15 - 3:30  |  |
-| Observability and Monitoring |  3:30 - 4:30  | Dustin Cote, Senior Product Manager |
+| Stream Lineage and Data Governance |  3:30 - 4:30  |David Araujo, Staff Product Manager  |
 
-
+ 
 
 
 ## Workshop Agenda - Day 2:
