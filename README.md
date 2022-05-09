@@ -618,7 +618,22 @@ The next step is to produce sample data using the Datagen Source connector. You 
 
 ## <a name="step-15"></a>**Enable Cluster Linking**
 
-Instructions to be updated
+1. First, create a **cluster link** from one cluster to another. A cluster link acts as a persistent bridge between the two clusters. 
+
+```sql
+confluent kafka link create cluster-link
+  --source-bootstrap-server <bootstrap-id>
+  --source-cluster-id <lkc-id>
+  --api-key <api-key>
+  --api-secret ********
+```
+2. To mirror data across the cluster link, you create mirror topics on your destination cluster.
+
+```sql
+confluent kafka mirror create clickstream.tokyo
+   --link cluster-link
+```
+
 
 ## <a name="step-16"></a>**Monitor Confluent Cloud with Datadog**
 
