@@ -615,38 +615,13 @@ The next step is to produce sample data using the Datagen Source connector. You 
     <img src="images/add-datagen-conn.png" width=50% height=50%>
 </div>
 
-## <a name="step-15"></a>**(Optional) - Monitor Confluent Cloud with Datadog**
+## <a name="step-15"></a>**Enable Cluster Linking**
+
+<Instructions to be updated>
+
+## <a name="step-16"></a>**Monitor Confluent Cloud with Datadog**
 
 Instructions here: https://docs.datadoghq.com/integrations/confluent_cloud/
-
-## <a name="step-16"></a>**Confluent Cloud Schema Registry**
-
-In this final section of the workshop, you will explore Confluent Cloud Schema Registry, which is used to manage and store a versioned history of all of your schemas. Confluent Cloud Schema Registry is fully-managed and supports JSON, Avro, and Protobuf.
-
-1. Earlier, you enabled Schema Registry. Click on **Topics**, then **dbserver1.customers.inventory**, and then **Schema**.
-
-2. Here you can see the schema value for your topic, **dbserver1.customers.inventory**. The following is an example of what your schema may look like. Note that it shows the Format (AVRO), Compatibility Mode (Default is set as Backward), Schema ID, and Version. 
-
-    <div align="center">
-       <img src="images/cc-schema.png" width=75% height=75%>
-    </div>
-
-3. If you click on the 3 dots, you can view and change the compatibility setting and version history. The compatibility setting is currently set as backward compatible, which is the default. Backward compatibility means that consumers using the new schema can read data produced with the last schema. There are several different options for the compatibility setting, which you can read more about here: [Schema Evolution and Compatibility](https://docs.confluent.io/platform/current/schema-registry/avro.html#)
-
-    <div align="center">
-       <img src="images/cc-sr-compatibility.png" width=30% height=30%>
-    </div>
-
-4. Return to your environment.
-
-5. Click on **Schema Registry** and edit the **Compatibility setting**. 
-
-    <div align="center">
-       <img src="images/cc-sr-settings.png" width=75% height=75%>
-    </div>
-
-6. Click on **View & Manage Schemas** to view a searchable list of all your schemas available in your Confluent Cloud environment.
-
 
 ## <a name="step-17"></a>Clean Up Resources
 
