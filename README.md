@@ -66,9 +66,9 @@ Quartermile One Lauriston Place, 15 Lauriston Pl, Edinburgh EH3, UK
 10. [Windowing Operations and Fraud Detection](#step-10)
 11. [Pull Queries](#step-11)
 12. [Enable Schema Registry](#step-12)
-13. [CDC Source Connector with RDS](#step-13)
-14. [Sink Connector to S3 and Redshift](#step-14)
-15. [Optional: Databricks DeltaLake Sink Connector](#step-15)
+13. [Cloud ETL Example](#step-13)
+14. [Sink Connector to Redshift](#step-14)
+15. [Observability and Monitoring](#step-15)
 16. [Confluent Cloud Schema Registry](#step-16)
 17. [Clean Up Resources](#step-17)
 18. [Confluent Resources and Further Testing](#step-18)
@@ -562,164 +562,95 @@ You will be exploring Confluent Cloud Schema Registry in more detail towards the
 4. Click on **Add key** and save your API key and secret - you will also need these during the workshop. Click on **Done**.
 5. **Important**: Make note of the **API endpoint**. You will use this endpoint in one of the steps later in the workshop.
 
-## <a name="step-13"></a>**Set up and Connect Self Managed Services to Confluent Cloud**
+## <a name="step-13"></a>**End-to-End cloud ETL deployment, built for 100% cloud services**
 
 
-Let’s say you have a database, or object storage such as AWS S3, Azure Blob Storage, or Google Cloud Storage, or a data warehouse such as Snowflake. How do you connect these data systems to your architecture?
+Let’s say you have a database such as RDS, or object storage such as AWS S3, or a data warehouse such as Redshift. How do you connect these data systems to your architecture?
 
 There are 2 options: <br>
 
 1. Develop your own connectors using the Kafka Connect framework (this requires a lot of development time and effort).  
-2. You can leverage the 180+ connectors Confluent offers out-of-the-box which allows you to configure your sources and sinks in a few, simple steps. To view the complete list of connectors that Confluent offers, please see [Confluent Hub](https://www.confluent.io/hub/).
+2. You can leverage the 200+ connectors Confluent offers out-of-the-box which allows you to configure your sources and sinks in a few, simple steps. To view the complete list of connectors that Confluent offers, please see [Confluent Hub](https://www.confluent.io/hub/).
 
 With Confluent’s connectors, your data systems can communicate with your services, completing your data pipeline. 
 
 If you want to run a connector not yet available as fully-managed in Confluent Cloud, you may run it yourself in a self-managed Connect cluster and connect it to Confluent Cloud. Please note that Confluent will still support any self managed components. 
 
-Now that you have completed setting up your Confluent Cloud account, cluster, topic, and Schema Registry, this next step will guide you how to configure a local Connect cluster backed by your cluster in Confluent Cloud that you created earlier. 
+Now that you have completed setting up your Confluent Cloud account, cluster, topic, and Schema Registry, this next step will guide you how to build end to end pipelines 
 
-1. Click on **Connectors**, and then click on **Self Managed**. 
+Instruction Available here: https://docs.confluent.io/platform/current/tutorials/examples/cloud-etl/docs/index.html
 
-    > **Note:** Self Managed connectors are installed on a local Connect cluster backed by a source cluster in Confluent Cloud. This Connect cluster will be hosted and managed by you, and Confluent will fully support it. 
-    
-    <div align="center" padding=25px>
-       <img src="images/connectors-self-managed.png" width=75% height=75%>
-    </div>
+## <a name="step-14"></a>**Create Redshift Sink Connector**
 
-1. To begin setting up **Connect**, you should have already cloned this repository during the Prerequisites step. If you have not, start by cloning the workshop repository.
-    ```bash
-    # Clone Workshop repo
-    git clone https://github.com/rappalla-confluent/radian-workshop.git
-    ```
+The next step is to produce sample data using the Datagen Source connector. You will create two Datagen Source connectors. One connector will send sample user data to **users_topic** and the other connector will send sample stock data to **stocks_topic**.
 
-    This directory contains two important supporting files, `setup.properties` and `docker-compose.yml`. 
+1. First, you will create the connector that will send data to **users_topic**. From the Confluent Cloud UI, click on the **Connectors** tab on the navigation menu. Click on the **Datagen Source** icon.
 
-    You will use `setup.properties` in order to export values from your Confluent Cloud account as environment variables. `docker-compose.yml` will use the environment variables from there to create three containers: `connect`, `control-center`, and `postgres`. 
+<div align="center" padding=25px>
+    <img src="images/connectors.png" width=75% height=75%>
+</div>
 
-    You will use `control-center` to configure `connect` to do change data capture from `postgres` before sending this data Confluent Cloud. 
+2. Enter the following configuration details. The remaining fields can be left blank.
 
-1. The next step is to replace the placeholder values surrounded in angle brackets within `setup.properties`. For reference, use the following table to fill out all the values completely.
+<div align="center">
 
-    | property               | created in step                         |
-    |------------------------|-----------------------------------------|
-    | `BOOTSTRAP_SERVERS`      | [*create an environment and cluster*](#create-an-environment-and-kafka-cluster) |
-    | `CLOUD_KEY`              | [*create an api key pair*](#create-an-api-key-pair)                  |
-    | `CLOUD_SECRET`           | [*create an api key pair*](#create-an-api-key-pair)                  |
-    | `SCHEMA_REGISTRY_KEY`    | [*enable schema registry*](#enable-schema-registry)                  |
-    | `SCHEMA_REGISTRY_SECRET` | [*enable schema registry*](#enable-schema-registry)                  |
-    | `SCHEMA_REGISTRY_URL`    | [*enable schema registry*](#enable-schema-registry)                  |
+| setting                            | value                        |
+|------------------------------------|------------------------------|
+| name                               | DatagenSourceConnector_Users |
+| api key                            | [*from step 5* ](#step-5)    |
+| api secret                         | [*from step 5* ](#step-5)    |
+| topic                              | users_topic                  |
+| output message format              | JSON                         |
+| quickstart                         | USERS                        |
+| max interval between messages (ms) | 1000                         |
+| tasks                              | 1                            |
+</div>
 
-1. View the **docker-compose.yml**. 
+<br>
 
-    This will launch a PostgreSQL database and 2 Confluent Platform components - a Connect cluster and Confluent Control Center. Control Center is used to monitor your Confluent deployment. The file will not provision the brokers because you will be using the cluster you created in Confluent Cloud.
+3. Click on **Next**.
+4. Before launching the connector, you should see something similar to the following. If everything looks similar, select **Launch**. 
 
-    The docker-compose.yml also has parameterized the values to connect to your Confluent Cloud instance, including the bootstrap servers and security configuration. You could fill in these Confluent Cloud credentials manually, but a more programmatic method is to create a local file with configuration parameters to connect to your clusters. To make it a lot easier and faster, you will use this method.
-
-    You will be using Docker during this workshop. Alternatively, you can set up these Confluent Platform components and connect them to Confluent Cloud by installing Confluent Platform as a local install.
-
-1. Run the following command to export the required properties to the console. 
-    ```bash
-    # export the variables to the console
-    source setup.properties
-    ```
-
-
-1. Validate your credentials to Confluent Cloud Schema Registry.
-    ```bash
-    curl -u $SCHEMA_REGISTRY_BASIC_AUTH_USER_INFO $SCHEMA_REGISTRY_URL/subjects
-    ```
-
-    If successful, your output will return: `{ }%`
-
-## <a name="step-14"></a>**Deploy: Connect Self Managed Services to Confluent Cloud**
-
-You are now ready to start your Confluent Platform services - Connect and Control Center. Both will be connected to your cluster in Confluent Cloud, which is what you accomplished in the earlier steps.
-
-1. Start Docker Desktop.
-
-2. To bring up all of the services, run the following command:
-    ```bash
-    docker-compose up -d
-    ```
-
-3. Within Docker Desktop, go to Dashboard. Check if the services, including the PostgreSQL database, are all running successfully.
-
-You have successfully installed the Debezium PostgreSQL CDC Source connector on your local Connect cluster. You also have a PostgreSQL database running in the container. These are all connected to Confluent Cloud. You are now ready to start producing data from your PostgreSQL database to Confluent Cloud.
+<div align="center" padding=25px>
+    <img src="images/add-datagen-conn.png" width=50% height=50%>
+</div>
 
 ## <a name="step-15"></a>**Launch: PostgreSQL Source Connector in Confluent Control Center**
 
-You have seen and worked within the Confluent Cloud Dashboard in the previous steps. Because you have Confluent Platform services deployed, you can use Confluent Control Center (C3) to manage and monitor Confluent Platform, and it is also connected to Confluent Cloud from your set up. You will see confirmation that Control Center is indeed connected to Confluent Cloud by the end of this step.
+## <a name="step-6"></a>Create Datagen Connectors for Users and Stocks
 
-1. Open a browser and go to **http://localhost:9021/** to access Confluent Control Center.
+The next step is to produce sample data using the Datagen Source connector. You will create two Datagen Source connectors. One connector will send sample user data to **users_topic** and the other connector will send sample stock data to **stocks_topic**.
 
-    <div align="center">
-       <img src="images/c3-landing-page.png" width=50% height=50%>
-    </div>
+1. First, you will create the connector that will send data to **users_topic**. From the Confluent Cloud UI, click on the **Connectors** tab on the navigation menu. Click on the **Datagen Source** icon.
 
-    You will notice that the UI looks very similar to the Confluent Cloud dashboard. 
+<div align="center" padding=25px>
+    <img src="images/connectors.png" width=75% height=75%>
+</div>
 
-2. Click on the cluster, then click on **Topics**, and you should notice the **dbserver1.inventory.customers** topic that you had created in Confluent Cloud in Step 3. This is your first confirmation that Control Center and local Connect cluster are successfully connected to Confluent Cloud.
-    
-    <div align="center">
-       <img src="images/c3-all-topics.png" width=50% height=50%>
-    </div>
+2. Enter the following configuration details. The remaining fields can be left blank.
 
-3. Click on **Connect**. You will see a cluster already here named **connect-default**. If not, please refresh the page. This is your local Connect cluster that you have running in Docker. 
+<div align="center">
 
-    <div align="center">
-       <img src="images/c3-all-connect.png" width=75% height=75%>
-    </div>
+| setting                            | value                        |
+|------------------------------------|------------------------------|
+| name                               | DatagenSourceConnector_Users |
+| api key                            | [*from step 5* ](#step-5)    |
+| api secret                         | [*from step 5* ](#step-5)    |
+| topic                              | users_topic                  |
+| output message format              | JSON                         |
+| quickstart                         | USERS                        |
+| max interval between messages (ms) | 1000                         |
+| tasks                              | 1                            |
+</div>
 
-4. Click on **connect-default**, **Add Connector**, and then on the **PostgresConnector Source** tile. 
+<br>
 
-    <div align="center">
-       <img src="images/c3-browse-connect.png" width=75% height=75%>
-    </div>
+3. Click on **Next**.
+4. Before launching the connector, you should see something similar to the following. If everything looks similar, select **Launch**. 
 
-5. As the final step in deploying the self managed PostgreSQL CDC Source connector, you will now create the connector. Enter the following configuration details:
-    ```bash
-    Name = PostgresSource
-    Tasks max = 1
-    Namespace = dbserver1
-    Hostname = 0.0.0.0 
-    Port = 5432
-    User = postgres
-    Password = confluent2021
-    Database = postgres
-    ```
-
-    If you have networking rules that may not allow for connection to 0.0.0.0, then use *docker.for.mac.host.internal* as the hostname for Mac and use *docker.for.win.localhost* for Windows.
-
-6. Scroll down to the very bottom of the page, click on **Continue**, review the configuration details, then click on **Launch.**
-    <div align="center">
-       <img src="images/c3-launch-connector.png" width=75% height=75%>
-    </div>
-
-7. Verify that the connector is running.
-
-    <div align="center">
-       <img src="images/c3-running-connectors.png" width=75% height=75%>
-    </div>
-
-8. Return to the Confluent Cloud UI, click on your cluster tile, then on **Topics**, then on the topic **dbserver1.inventory.customers**. You will now confirm that your PostgreSQL connector is working by checking to see if data is being produced to our Confluent Cloud cluster. You will see data being produced under the **Production** tile. 
-
-9. Another way to confirm is to view the messages within the UI. Click on **Messages**. In the search bar at the top, set it to **Jump to Offset**. Enter **0** as the offset and click on the result **0 / Partition: 0**. 
-
-    Remember, you created this topic with 1 partition. That partition is Partition 0.
-    
-10. You should now be able to see the messages within the UI. Click on the cards view (left option) to see the messages in a different format.
-
-    <div align="center">
-       <img src="images/c3-cards.png" width=25% height=25%>
-    </div>
-
-    The messages should resemble:
-
-    <div align="center">
-       <img src="images/c3-messages.png" width=75% height=75%>
-    </div>
-
-    > **Note:** The unrecognized characters are a plaintext representation of Avro.
+<div align="center" padding=25px>
+    <img src="images/add-datagen-conn.png" width=50% height=50%>
+</div>
 
 ## <a name="step-16"></a>**Confluent Cloud Schema Registry**
 
