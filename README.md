@@ -621,17 +621,15 @@ The next step is to produce sample data using the Datagen Source connector. You 
 1. First, create a **cluster link** from one cluster to another. A cluster link acts as a persistent bridge between the two clusters. 
 
 ```sql
-confluent kafka link create cluster-link
-  --source-bootstrap-server <bootstrap-id>
-  --source-cluster-id <lkc-id>
-  --api-key <api-key>
-  --api-secret ********
+confluent kafka link create my-link --cluster $destination_id \
+    --source-cluster-id $source_id \
+    --source-bootstrap-server $source_endpoint \
+    --source-api-key <api-key> --source-api-secret <api-secret>
 ```
 2. To mirror data across the cluster link, you create mirror topics on your destination cluster.
 
 ```sql
-confluent kafka mirror create clickstream.tokyo
-   --link cluster-link
+confluent kafka mirror create users.dest --cluster $destination_id --link my-link
 ```
 
 
