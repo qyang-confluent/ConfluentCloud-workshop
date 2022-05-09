@@ -275,9 +275,6 @@ The next step is to produce sample data using the Datagen Source connector. You 
     <img src="images/card-view-values.png" width=75% height=75%>
 </div>
 
-<div align="center">
-    <p style="color:red">STOP HERE FOR PRESENTATION</p>
-</div>
 
 ***
 
@@ -613,6 +610,10 @@ The next step is to produce sample data using the Datagen Source connector. You 
 
 <div align="center" padding=25px>
     <img src="images/add-datagen-conn.png" width=50% height=50%>
+</div>
+
+<div align="center">
+    <p style="color:red">STOP HERE FOR PRESENTATION</p>
 </div>
 
 ## <a name="step-15"></a>**Enable Cluster Linking**
