@@ -580,10 +580,7 @@ Instruction Available here: https://docs.confluent.io/platform/current/tutorials
 1. Update the demo.cfg file to reflect export DATA_SOURCE='rds'
 2. export AWS_PROFILE=default
 3. profile must exist in ~/.aws/credentials
-File contents:
-[default]
-aws_access_key_id = AKIA4CEZVBNW2R2WXAVA
-aws_secret_access_key = 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
+
 
 ## <a name="step-14"></a>**Create Redshift Sink Connector**
 
