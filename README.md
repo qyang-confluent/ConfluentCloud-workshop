@@ -618,7 +618,7 @@ The next step is to produce sample data using the Datagen Source connector. You 
 
 ## <a name="step-15"></a>**Enable Cluster Linking**
 
-<Instructions to be updated>
+Instructions to be updated
 
 ## <a name="step-16"></a>**Monitor Confluent Cloud with Datadog**
 
