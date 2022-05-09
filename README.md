@@ -577,6 +577,14 @@ Now that you have completed setting up your Confluent Cloud account, cluster, to
 
 Instruction Available here: https://docs.confluent.io/platform/current/tutorials/examples/cloud-etl/docs/index.html
 
+1. Update the demo.cfg file to reflect export DATA_SOURCE='rds'
+2. export AWS_PROFILE=default
+3. profile must exist in ~/.aws/credentials
+File contents:
+[default]
+aws_access_key_id = AKIA4CEZVBNW2R2WXAVA
+aws_secret_access_key = 1UPRB1qrRYCH7fUV3cC0SQGxdVAcEViYZnon8Jjc
+
 ## <a name="step-14"></a>**Create Redshift Sink Connector**
 
 The next step is to produce sample data using the Datagen Source connector. You will create two Datagen Source connectors. One connector will send sample user data to **users_topic** and the other connector will send sample stock data to **stocks_topic**.
