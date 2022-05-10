@@ -634,7 +634,9 @@ confluent kafka link create my-link --cluster $destination_id \
 2. To mirror data across the cluster link, you create mirror topics on your destination cluster.
 
 ```sql
-confluent kafka mirror create users.dest --cluster $destination_id --link my-link
+
+confluent kafka mirror create users_topic --cluster $destination_id --link my-link
+
 ```
 
 
