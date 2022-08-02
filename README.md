@@ -1,5 +1,5 @@
 <div align="center">
-    <img src="images/adgp-logo-tjx-2021.png" width=50% height=50%>
+    <img src="images/fanduel.png" width=50% height=50%>
 </div>
 
 
