@@ -28,10 +28,9 @@ This workshop is perfect for those looking to get started with Confluent Cloud a
 | Workshop Kickoff | 8:00 - 8:15 | Eric Langan - Confluent |
 | Review Gartner Use-Cases and <br/> Architecture |  8:15 - 9:00  | Eric Langan / Qi Yang - Confluent |
 | Break |  9:00 - 9:15  |  |
-| Confluent Introduction and <br/> Hands-on Workshop Demo |  9:15 - 10:30  | Qi Yang - Confluent |
-| Break | 10:30 - 11:00 |
-| Workshop Environment setup |  11:00 - 11:15  | Gartner team |
-| Streaming with Confluent and <br/> AWS Outposts using Cluster Linking|  11:15 - 12:00  | Joseph Morais, Staff Partner Solutions Engineer |
+| Confluent Introduction and <br/> Hands-on Workshop Demo |  9:15 - 10:45  | Qi Yang - Confluent |
+| Workshop Environment setup/Break |  10:45 - 11:30  | Gartner team |
+| Streaming with Confluent and <br/> AWS Outposts using Cluster Linking|  11:30 - 12:00  | Joseph Morais, Staff Partner Solutions Engineer |
 | Observability and Monitoring |  12:00 - 12:45  | Dustin Cote, Senior Product Manager  |
 
 
