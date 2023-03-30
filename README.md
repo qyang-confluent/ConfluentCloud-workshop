@@ -1,5 +1,5 @@
 <div align="center">
-    <img src="images/gartner.png" width=50% height=50%>
+    <img src="images/gartner.png" width=25% height=25%>
 </div>
 
 
