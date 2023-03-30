@@ -23,7 +23,7 @@ This workshop is perfect for those looking to get started with Confluent Cloud a
 
 ## Workshop Agenda - Day 1:
 
-| Topic | Time (GMT+1) | Speaker |
+| Topic | Time (US Eastern) | Speaker |
 | --- | --- | --- |
 | Workshop Kickoff | 8:00 - 8:15 | Eric Langan - Confluent |
 | Review Gartner Use-Cases and <br/> Architecture |  8:15 - 9:00  | Eric Langan / Qi Yang - Confluent |
