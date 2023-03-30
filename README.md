@@ -32,9 +32,9 @@ This workshop is perfect for those looking to get started with Confluent Cloud a
 | Break | 10:30 - 11:00 |
 | Workshop Environment setup |  11:00 - 11:15  | Gartner team |
 | Streaming with Confluent and <br/> AWS Outposts using Cluster Linking|  11:15 - 12:00  | Joseph Morais, Staff Partner Solutions Engineer |
-| Observability and Monitoring |  12:00 - 12:45  | Senior Product Manager  |
+| Observability and Monitoring |  12:00 - 12:45  | Dustin Cote, Senior Product Manager  |
 | Break | 12:45 - 1:00 | 
-| Stream Lineage and Data Governance |  1:00 - 2:00  | Staff Product Manager  |
+| Stream Lineage and Data Governance |  1:00 - 2:00  | David Araujo, Staff Product Manager  |
 
  
 
