@@ -30,7 +30,7 @@ This workshop is perfect for those looking to get started with Confluent Cloud a
 | Break |  9:00 - 9:15  |  |
 | Confluent Introduction and <br/> Hands-on Workshop Demo |  9:15 - 10:45  | Qi Yang - Confluent |
 | Workshop Environment setup/Break |  10:45 - 11:30  | Gartner team |
-| AWS MSK and Confluent Cloud|  11:30 - 12:00  | Joseph Morais, Staff Partner Solutions Engineer |
+| AWS MSK vs Confluent Cloud|  11:30 - 12:00  | Joseph Morais, Staff Partner Solutions Engineer |
 | Observability and Monitoring |  12:00 - 12:45  | Dustin Cote, Senior Product Manager  |
 
 
