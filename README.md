@@ -33,7 +33,7 @@ This workshop is perfect for those looking to get started with Confluent Cloud a
 | Workshop Environment setup |  11:00 - 11:15  | Gartner team |
 | Streaming with Confluent and <br/> AWS Outposts using Cluster Linking|  11:15 - 12:00  | Joseph Morais, Staff Partner Solutions Engineer |
 | Observability and Monitoring |  12:00 - 12:45  | Dustin Cote, Senior Product Manager  |
-| Break | 12:45 - 1:00 | 
+
 
  
 
