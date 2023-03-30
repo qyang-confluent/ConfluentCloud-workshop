@@ -34,7 +34,6 @@ This workshop is perfect for those looking to get started with Confluent Cloud a
 | Streaming with Confluent and <br/> AWS Outposts using Cluster Linking|  11:15 - 12:00  | Joseph Morais, Staff Partner Solutions Engineer |
 | Observability and Monitoring |  12:00 - 12:45  | Dustin Cote, Senior Product Manager  |
 | Break | 12:45 - 1:00 | 
-| Stream Lineage and Data Governance |  1:00 - 2:00  | David Araujo, Staff Product Manager  |
 
  
 
@@ -46,7 +45,8 @@ This workshop is perfect for those looking to get started with Confluent Cloud a
 | MVP Evaluation Roadmap |  8:00 - 9:00  |  Gartner Team  |
 | Break |  9:00 - 9:15  |  |
 | Value Assessment |  9:15 - 10:00  |  Eric Langan  |
-| Q&A and Workshop wrap-up |  10:00 - 11:00  | Eric Langan / Qi Yang - Confluent |
+| Stream Lineage and Data Governance |  10:00 - 11:00  | David Araujo, Staff Product Manager  |
+| Q&A and Workshop wrap-up |  11:00 - 12:00  | Eric Langan / Qi Yang - Confluent |
 
 
 
