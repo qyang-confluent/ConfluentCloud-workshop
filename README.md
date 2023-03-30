@@ -8,9 +8,9 @@
 </div>
 
 
-# <div align="center">Fanduel Demo and Workshop repository</div>
+# <div align="center">Gartner Demo and Workshop repository</div>
 
-This repository contains workshop content for Fanduel to be held on May 11th and 12th in Edinburgh, Scotland. Content with the lab instructions and hands-on guide will be updated before the workshop. Please see below for the details of the workshop and agenda: 
+This repository contains workshop content for Gartner to be held on April 3rd.  Content with the lab instructions and hands-on guide will be updated before the workshop. Please see below for the details of the workshop and agenda: 
 
 ## Introduction
 
@@ -20,23 +20,19 @@ We welcome you to join the Confluent team in a workshop to get started with data
 
 This workshop is perfect for those looking to get started with Confluent Cloud and build the foundation of your use case with our experienced engineers. 
 
-## Address: 
-Quartermile One Lauriston Place, 15 Lauriston Pl, Edinburgh EH3, UK
 
 ## Workshop Agenda - Day 1:
 
 | Topic | Time (GMT+1) | Speaker |
 | --- | --- | --- |
-| Workshop Kickoff | 10:00 - 10:15 | Dan Elliman - Confluent |
-| Review Fanduel Use-Cases and <br/> Architecture |  10:15 - 11:00  | Dan Elliman / Ravi Appalla - Confluent |
-| Break |  11:00 - 11:15  |  |
-| Confluent Introduction and <br/> Hands-on Workshop Demo |  11:15 - 12:30  | Ravi Appalla - Confluent |
-| Lunch |  12:30 - 1:30  | Will be coordinated by Confluent Team |
-| Workshop Environment setup |  1:30 - 1:45  | Fanduel team |
-| Streaming with Confluent and <br/> AWS Outposts using Cluster Linking|  1:45 - 2:30  | Joseph Morais, Staff Partner Solutions Engineer |
-| Observability and Monitoring |  2:30 - 3:15  | Dustin Cote, Senior Product Manager  |
-| Break |  3:15 - 3:30  |  |
-| Stream Lineage and Data Governance |  3:30 - 4:30  |David Araujo, Staff Product Manager  |
+| Workshop Kickoff | 8:00 - 8:15 | Eric Langan - Confluent |
+| Review Gartner Use-Cases and <br/> Architecture |  8:15 - 9:00  | Eric Langan / Qi Yang - Confluent |
+| Break |  9:00 - 9:15  |  |
+| Confluent Introduction and <br/> Hands-on Workshop Demo |  9:15 - 10:30  | Qi Yang - Confluent |
+| Workshop Environment setup |  10:30 - 10:45  | Fanduel team |
+| Streaming with Confluent and <br/> AWS Outposts using Cluster Linking|  10:45 - 11:30  | Joseph Morais, Staff Partner Solutions Engineer |
+| Observability and Monitoring |  11:30 - 12:15  | Dustin Cote, Senior Product Manager  |
+| Stream Lineage and Data Governance |  12:30 - 1:30  |David Araujo, Staff Product Manager  |
 
  
 
@@ -45,11 +41,10 @@ Quartermile One Lauriston Place, 15 Lauriston Pl, Edinburgh EH3, UK
 
 | Topic | Time | Speaker |
 | --- | --- | --- |
-| MVP Evaluation Roadmap |  10:00 - 11:00  |  Fanduel Team  |
-| Break |  11:00 - 11:15  |  |
-| Value Assessment |  11:15 - 12:00  |  Dan Elliman  |
-| Lunch |  12:00 - 1:00  | Will be coordinated by Confluent Team |
-| Q&A and Workshop wrap-up |  1:00 - 2:00  | Dan Elliman / Ravi Appalla - Confluent |
+| MVP Evaluation Roadmap |  8:00 - 9:00  |  Gartner Team  |
+| Break |  9:00 - 9:15  |  |
+| Value Assessment |  9:15 - 10:00  |  Eric Langan  |
+| Q&A and Workshop wrap-up |  10:00 - 11:00  | Eric Langan / Qi Yang - Confluent |
 
 
 
