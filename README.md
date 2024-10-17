@@ -8,9 +8,9 @@
 </div>
 
 
-# <div align="center">Gartner Demo and Workshop repository</div>
+# <div align="center">Confluent Cloud Demo and Workshop repository</div>
 
-This repository contains workshop content for Gartner to be held on April 3rd.  Content with the lab instructions and hands-on guide will be updated before the workshop. Please see below for the details of the workshop and agenda: 
+This repository contains workshop content for Cigna.  Content with the lab instructions and hands-on guide will be updated before the workshop. Please see below for the details of the workshop and agenda: 
 
 ## Introduction
 
@@ -25,28 +25,12 @@ This workshop is perfect for those looking to get started with Confluent Cloud a
 
 | Topic | Time (US Eastern) | Speaker |
 | --- | --- | --- |
-| Workshop Kickoff | 8:00 - 8:15 | Eric Langan - Confluent |
-| Review Gartner Use-Cases and <br/> Architecture |  8:15 - 9:00  | Eric Langan / Qi Yang - Confluent |
-| Break |  9:00 - 9:15  |  |
-| Confluent Introduction and Hands-on Workshop Demo |  9:15 - 9:45  | Qi Yang - Confluent |
-| Break| 9:45 - 10:00|
-| Workshop Environment setup |  10:00 - 11:30  | Gartner team |
-| AWS MSK vs Confluent Cloud|  11:30 - 12:00  | Joseph Morais, Staff Partner Solutions Engineer |
-| Observability and Monitoring |  12:00 - 12:45  | Dustin Cote, Senior Product Manager  |
-
-
- 
-
-
-## Workshop Agenda - Day 2:
-
-| Topic | Time | Speaker |
-| --- | --- | --- |
-| MVP Evaluation Roadmap |  8:00 - 9:00  |  Gartner Team  |
-| Break |  9:00 - 9:15  |  |
-| Value Assessment |  9:15 - 10:00  |  Eric Langan  |
-| Stream Lineage and Data Governance |  10:00 - 11:00  | David Araujo, Staff Product Manager  |
-| Q&A and Workshop wrap-up |  11:00 - 12:00  | Eric Langan / Qi Yang - Confluent |
+| Workshop Kickoff | 1:00 - 1:15 | Confluent |
+| Confluent Cloud Introduction and Hands-on Workshop Demo |  1:15 - 2:00  | Confluent |
+|Break | 2:00 - 2:10 ||
+| Workshop Environment setup |  2:10 - 2:30  | Cigna team |
+| Confluent Cloud Workshop | 2:30 - 4:30pm | Cigna Team|
+| Q&A and Workshop wrap-up |  4:30 - 5:00  | Confluent |
 
 
 
