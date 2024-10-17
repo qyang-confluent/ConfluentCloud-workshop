@@ -66,8 +66,6 @@ This workshop is perfect for those looking to get started with Confluent Cloud a
         - GCP:  Your GCP service account role must have permission to create new objects in the GCS bucket. For example, the Storage Admin role can be selected for this purpose. If you are concerned about security and do not want to use the Storage Admin role, only use the storage.objects.get and storage.objects.create roles. Also, note that the Storage Object Admin role does not work for this purpose.
 
 
-***
-
 ## Workshop Agenda:
 
 | Topic | Time (US Eastern) | Speaker |
