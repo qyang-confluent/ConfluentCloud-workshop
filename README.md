@@ -8,7 +8,7 @@
 </div>
 
 
-# <div align="center">Confluent Cloud Demo and Workshop repository</div>
+# <div align="center">Confluent Cloud Demo and Workshop </div>
 
 This repository contains workshop content for Cigna.  Content with the lab instructions and hands-on guide will be updated before the workshop. Please see below for the details of the workshop and agenda: 
 
