@@ -21,7 +21,7 @@ We welcome you to join the Confluent team in a workshop to get started with data
 This workshop is perfect for those looking to get started with Confluent Cloud and build the foundation of your use case with our experienced engineers. 
 
 
-## Workshop Agenda - Day 1:
+## Workshop Agenda:
 
 | Topic | Time (US Eastern) | Speaker |
 | --- | --- | --- |
