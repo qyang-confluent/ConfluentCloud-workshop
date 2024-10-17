@@ -20,6 +20,53 @@ We welcome you to join the Confluent team in a workshop to get started with data
 
 This workshop is perfect for those looking to get started with Confluent Cloud and build the foundation of your use case with our experienced engineers. 
 
+## **Prerequisites**
+<br>
+
+1. Confluent Cloud Account
+    - Sign-up for a Confluent Cloud account [here](https://www.confluent.io/confluent-cloud/tryfree/)
+    - Once you have signed up and logged in, click on the menu icon at the upper right hand corner, click on "Billing & payment", then enter payment details under “Payment details & contacts”. A screenshot of the billing UI is included below.
+
+    > **Note:** You will create resources during this workshop that will incur costs. When you sign up for a Confluent Cloud account, you will get free credits to use in Confluent Cloud. This will cover the cost of resources created during the workshop. More details on the specifics can be found [here](https://www.confluent.io/confluent-cloud/tryfree/).
+
+2. Ports 443 and 9092 need to be open to the public internet for outbound traffic. To check, try accessing the following from your web browser:
+    - portquiz.net:443
+    - portquiz.net:9092
+
+1. This workshop requires access to a command line interface.
+    * **Mac users:** The standard Terminal application or iTerm2 are recommended.
+    * **Windows users:** The built-in Command Prompt or Git BASH are recommended.  
+
+1. Git access, see [here](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git) for installation instructions. After installation, verify that the installation was successful with the following command:
+    ```bash
+    # Check the git version
+    git --version
+    ```
+
+1. This workshop requires `docker`. Download *Docker Desktop* [here](https://www.docker.com/products/docker-desktop). After installation, verify that the installation was successful with the following command:
+    ```bash
+    # Check the docker version
+    docker --version
+    ```
+
+  > **Note:** You will be deploying Confluent Platform services and connecting them to Confluent Cloud. There are multiple ways to install Confluent Platform, which you can view in [On-Premises Deployments](https://docs.confluent.io/platform/current/installation/installing_cp/overview.html). In order to make the set up easier for those running different operating systems during the workshop, you will walk through setting up Confluent Platform using Docker. You can accomplish the steps in this lab guide using any of the other deployment methods.
+
+6. AWS / Azure / GCP account - You will be creating a fully-managed sink connector to an object storage. 
+    - Access Key/Credentials
+        - AWS: [Access Keys](https://docs.aws.amazon.com/general/latest/gr/aws-sec-cred-types.html#access-keys-and-secret-access-keys)
+        - Azure: [Manage account access keys](https://docs.microsoft.com/en-us/azure/storage/common/storage-account-keys-manage?tabs=azure-portal)
+        - GCP:  [Creating and managing service accounts](https://cloud.google.com/iam/docs/creating-managing-service-accounts)
+
+    - Bucket/Container Name - Create the object storage before the workshop and have the name of the bucket/container ready.
+
+    - Region - Note which region you are deploying your object storage resource in. You will need to know during the workshop.
+
+    - IAM Policy configured for bucket access
+        - AWS: Follow the directions outlined in [IAM Policy for S3](https://docs.confluent.io/cloud/current/connectors/cc-s3-sink.html#cc-s3-bucket-policy)
+        - GCP:  Your GCP service account role must have permission to create new objects in the GCS bucket. For example, the Storage Admin role can be selected for this purpose. If you are concerned about security and do not want to use the Storage Admin role, only use the storage.objects.get and storage.objects.create roles. Also, note that the Storage Object Admin role does not work for this purpose.
+
+
+***
 
 ## Workshop Agenda:
 
