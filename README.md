@@ -70,12 +70,12 @@ This workshop is perfect for those looking to get started with Confluent Cloud a
 
 | Topic | Time (US Eastern) | Speaker |
 | --- | --- | --- |
-| Workshop Kickoff | 1:00pm - 1:15 | Confluent |
-| Confluent Cloud Introduction and Hands-on Workshop Demo |  1:15pm - 2:00  | Confluent |
-|Break | 2:00pm - 2:10 ||
-| Workshop Environment setup |  2:10pm - 2:30  | Cigna team |
-| Confluent Cloud Workshop | 2:30pm - 4:30 | Cigna Team|
-| Q&A and Workshop wrap-up |  4:30pm - 5:00  | Confluent |
+| Workshop Kickoff | 9:00am - 9:15 | Confluent |
+| Confluent Cloud Introduction and Hands-on Workshop Demo |  9:15am - 10:00  | Confluent |
+|Break | 10:00am - 10:10 ||
+| Workshop Environment setup |  10:10am - 10:30  | Cigna team |
+| Confluent Cloud Workshop | 10:30am - 12:30 | Cigna Team|
+| Q&A and Workshop wrap-up |  12:30pm - 1:00pm  | Confluent |
 
 
 
