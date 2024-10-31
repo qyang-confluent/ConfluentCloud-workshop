@@ -121,19 +121,12 @@ This workshop is perfect for those looking to get started with Confluent Cloud a
 
 ***
 
-## <a name="step-2"></a>Create an Environment and Cluster
+## <a name="step-2"></a> Environment and Cluster
 
 An environment contains clusters and its deployed components such as Connectors, ksqlDB, and Schema Registry. You have the ability to create different environments based on your company's requirements. For example, you can use environments to separate Development/Testing, Pre-Production, and Production clusters. 
 
-1. Click **+ Add Environment**. Specify an **Environment Name with your Initials** and Click **Create**. 
 
->**Note:** There is a *default* environment ready in your account upon account creation. You can use this *default* environment for the purpose of this workshop if you do not wish to create an additional environment.
-
-<div align="center" padding=25px>
-    <img src="images/environment.png" width=50% height=50%>
-</div>
-
-2. Now that you have an environment, click **Create Cluster**. 
+2. You are assigned an environment with your name, click **Create Cluster**. 
 
 > **Note:** Confluent Cloud clusters are available in 3 types: Basic, Standard, and Dedicated. Basic is intended for development use cases so you will use that for the workshop. Basic clusters only support single zone availability. Standard and Dedicated clusters are intended for production use and support Multi-zone deployments. If you are interested in learning more about the different types of clusters and their associated features and limits, refer to this [documentation](https://docs.confluent.io/current/cloud/clusters/cluster-types.html).
 
