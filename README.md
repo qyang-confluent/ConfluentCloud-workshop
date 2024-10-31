@@ -23,13 +23,7 @@ This workshop is perfect for those looking to get started with Confluent Cloud a
 ## **Prerequisites**
 <br>
 
-1. Confluent Cloud Account
-    - Sign-up for a Confluent Cloud account [here](https://www.confluent.io/confluent-cloud/tryfree/)
-    - Once you have signed up and logged in, click on the menu icon at the upper right hand corner, click on "Billing & payment", then enter payment details under “Payment details & contacts”. A screenshot of the billing UI is included below.
-
-    > **Note:** You will create resources during this workshop that will incur costs. When you sign up for a Confluent Cloud account, you will get free credits to use in Confluent Cloud. This will cover the cost of resources created during the workshop. More details on the specifics can be found [here](https://www.confluent.io/confluent-cloud/tryfree/).
-
-2. Ports 443 and 9092 need to be open to the public internet for outbound traffic. To check, try accessing the following from your web browser:
+1. Ports 443 and 9092 need to be open to the public internet for outbound traffic. To check, try accessing the following from your web browser:
     - portquiz.net:443
     - portquiz.net:9092
 
@@ -43,15 +37,9 @@ This workshop is perfect for those looking to get started with Confluent Cloud a
     git --version
     ```
 
-1. This workshop requires `docker`. Download *Docker Desktop* [here](https://www.docker.com/products/docker-desktop). After installation, verify that the installation was successful with the following command:
-    ```bash
-    # Check the docker version
-    docker --version
-    ```
 
-  > **Note:** You will be deploying Confluent Platform services and connecting them to Confluent Cloud. There are multiple ways to install Confluent Platform, which you can view in [On-Premises Deployments](https://docs.confluent.io/platform/current/installation/installing_cp/overview.html). In order to make the set up easier for those running different operating systems during the workshop, you will walk through setting up Confluent Platform using Docker. You can accomplish the steps in this lab guide using any of the other deployment methods.
 
-6. AWS / Azure / GCP account - You will be creating a fully-managed sink connector to an object storage. 
+5. AWS / Azure / GCP account - You will be creating a fully-managed sink connector to an object storage. 
     - Access Key/Credentials
         - AWS: [Access Keys](https://docs.aws.amazon.com/general/latest/gr/aws-sec-cred-types.html#access-keys-and-secret-access-keys)
         - Azure: [Manage account access keys](https://docs.microsoft.com/en-us/azure/storage/common/storage-account-keys-manage?tabs=azure-portal)
