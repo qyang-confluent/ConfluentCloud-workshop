@@ -128,15 +128,15 @@ An environment contains clusters and its deployed components such as Connectors,
 
 1. You are assigned an environment with your name, click **Create Cluster**. 
 
-> **Note:** Confluent Cloud clusters are available in 3 types: Basic, Standard, and Dedicated. Basic is intended for development use cases so you will use that for the workshop. Basic clusters only support single zone availability. Standard and Dedicated clusters are intended for production use and support Multi-zone deployments. If you are interested in learning more about the different types of clusters and their associated features and limits, refer to this [documentation](https://docs.confluent.io/current/cloud/clusters/cluster-types.html).
+> **Note:** Confluent Cloud clusters are available in 4 types: Basic, Standard, Enterprise and Dedicated. Basic is intended for development use cases so you will use that for the workshop. Basic clusters only support single zone availability. Standard and Dedicated clusters are intended for production use and support Multi-zone deployments. If you are interested in learning more about the different types of clusters and their associated features and limits, refer to this [documentation](https://docs.confluent.io/current/cloud/clusters/cluster-types.html).
 
-1. Chose the **Basic** cluster type. 
+2. Chose the **Basic** cluster type. 
 
 <div align="center" padding=25px>
     <img src="images/cluster-type.png" width=50% height=50%>
 </div>
 
-1. Click **Begin Configuration**. 
+3. Click **Begin Configuration**. 
 1. Choose your preferred Cloud Provider (AWS, GCP, or Azure), region, and availability zone. 
 1. Specify a **Cluster Name**. For the purpose of this lab, any name will work here. 
 
