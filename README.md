@@ -144,8 +144,8 @@ An environment contains clusters and its deployed components such as Connectors,
     <img src="images/create-cluster.png" width=50% height=50%>
 </div>
 
-1. View the associated *Configuration & Cost*, *Usage Limits*, and *Uptime SLA* information before launching. 
-1. Click **Launch Cluster**. 
+6. View the associated *Configuration & Cost*, *Usage Limits*, and *Uptime SLA* information before launching. 
+7. Click **Launch Cluster**. 
 
 ***
 
