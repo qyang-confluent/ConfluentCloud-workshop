@@ -207,7 +207,7 @@ The next step is to produce sample data using the Sample Data connector. You wil
     <img src="images/connectors-2024.png" width=75% height=75%>
 </div>
 
-2. Enter the following configuration details. The remaining fields can be left blank.
+2. Enter the following configuration details. On the first screen, choose **Additional Configuration** .
 <div align="center" padding=25px>
     <img src="images/sampledata-2.png" width=75% height=75%>
 </div>
