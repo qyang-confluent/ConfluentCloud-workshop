@@ -199,12 +199,12 @@ An environment contains clusters and its deployed components such as Connectors,
 
 ## <a name="step-6"></a>Create Datagen Connectors for Users and Stocks
 
-The next step is to produce sample data using the Datagen Source connector. You will create two Datagen Source connectors. One connector will send sample user data to **users_topic** and the other connector will send sample stock data to **stocks_topic**.
+The next step is to produce sample data using the Sample Data connector. You will create two Datagen Source connectors. One connector will send sample user data to **users_topic** and the other connector will send sample stock data to **stocks_topic**.
 
-1. First, you will create the connector that will send data to **users_topic**. From the Confluent Cloud UI, click on the **Connectors** tab on the navigation menu. Click on the **Datagen Source** icon.
+1. First, you will create the connector that will send data to **users_topic**. From the Confluent Cloud UI, click on the **Connectors** tab on the navigation menu. Click on the **Sample Data** icon.
 
 <div align="center" padding=25px>
-    <img src="images/connectors.png" width=75% height=75%>
+    <img src="images/connectors-2024.png" width=75% height=75%>
 </div>
 
 2. Enter the following configuration details. The remaining fields can be left blank.
@@ -232,7 +232,7 @@ The next step is to produce sample data using the Datagen Source connector. You 
     <img src="images/add-datagen-conn.png" width=50% height=50%>
 </div>
 
-5. Next, create the second connector that will send data to **stocks_topic**. Click on **+ Add Connector** and then the **datagen Source** icon again. 
+5. Next, create the second connector that will send data to **stocks_topic**. Click on **+ Add Connector** and then the **Sample Data** icon again. 
 
 6. Enter the following configuration details. The remaining fields can be left blank. 
 
