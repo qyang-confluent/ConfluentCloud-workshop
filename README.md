@@ -191,7 +191,7 @@ An environment contains clusters and its deployed components such as Connectors,
     <img src="images/create-key.png" width=75% height=75%>
 </div>
 
-3. Select **Global Access** and then click **Next**. 
+3. Select **My account** and then click **Next**. 
 4. Copy or save your API Key and Secret somewhere. You will need these later on in the lab, you will not be able to view the secret again once you close this dialogue. 
 5. After creating and saving the API key, you will see this API key in the Confluent Cloud UI in the **API Access** tab. If you don’t see the API key populate right away, refresh the browser.
 
