@@ -208,6 +208,10 @@ The next step is to produce sample data using the Sample Data connector. You wil
 </div>
 
 2. Enter the following configuration details. The remaining fields can be left blank.
+   
+<div align="center" padding=25px>
+    <img src="images/sampledata-1.png" width=75% height=75%>
+</div>
 
 <div align="center">
 
@@ -245,7 +249,7 @@ The next step is to produce sample data using the Sample Data connector. You wil
 | api secret                         | [*from step 5* ](#step-5)    |
 | topic                              | stocks_topic                 |
 | output message format              | JSON                         |
-| quickstart                         | STOCKS                       |
+| quickstart                         | STOCKS_TRADE                 |
 | max interval between messages (ms) | 1000                         |
 | tasks                              | 1                            |
 </div>
