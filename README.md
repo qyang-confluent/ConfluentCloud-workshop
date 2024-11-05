@@ -1,5 +1,5 @@
 <div align="center">
-    <img src="images/cigna.png" width=25% height=25%>
+    <img src="images/cigna.png" width=50% height=50%>
 </div>
 
 
