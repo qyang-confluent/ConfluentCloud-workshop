@@ -177,7 +177,7 @@ An environment contains clusters and its deployed components such as Connectors,
 7. Below is a look at the topic, **users_topic**, but you need to send data to this topic before you see any metrics.
 
 <div align="center" padding=25px>
-    <img src="images/users-topic.png" width=75% height=75%>
+    <img src="images/users-topic-2024.png" width=75% height=75%>
 </div>
 
 ***
