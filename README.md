@@ -105,7 +105,13 @@ This workshop is perfect for those looking to get started with Confluent Cloud a
     <img src="images/login.png" width=50% height=50%>
 </div>
 
-2. If you are logging in for the first time, you will see a self-guided wizard that walks you through spinning up a cluster. Please minimize this as you will walk through those steps in this workshop. 
+2. If you are logging in for the first time, Please check if you are in **Confluent Workshop - Cigna** Confluent Cloud Org (you may have access to more than one Confluent Cloud Org)
+<div align="center" padding=25px>
+    <img src="images/cloud-org.png" width=50% height=50%>
+</div>
+
+  
+3. If you see a self-guided wizard that walks you through spinning up a cluster. Please minimize this as you will walk through those steps in this workshop. 
 
 ***
 
