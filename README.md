@@ -582,7 +582,7 @@ You will be exploring Confluent Cloud Schema Registry in more detail towards the
 4. Click on **Add key** and save your API key and secret - you will also need these during the workshop. Click on **Done**.
 5. **Important**: Make note of the **API endpoint**. You will use this endpoint in one of the steps later in the workshop.
 
-## <a name="step-13"></a>**End-to-End cloud ETL deployment, built for 100% cloud services**
+## <a name="step-13"></a>**End-to-End cloud ETL deployment, built for 100% cloud services** (Optional)
 
 
 Let’s say you have a database such as RDS, or object storage such as AWS S3, or a data warehouse such as Redshift. How do you connect these data systems to your architecture?
@@ -627,7 +627,7 @@ The next step is to sink topic data using the Redshift Sink connector. This conn
     <p style="color:red">STOP HERE FOR PRESENTATION</p>
 </div>
 
-## <a name="step-15"></a>**Enable Cluster Linking**
+## <a name="step-15"></a>**Enable Cluster Linking** (Optional)
 
 1. First, create a **cluster link** from one cluster to another. A cluster link acts as a persistent bridge between the two clusters. 
 
@@ -646,7 +646,7 @@ confluent kafka mirror create users_topic --cluster $destination_id --link my-li
 ```
 
 
-## <a name="step-16"></a>**Monitor Confluent Cloud with Datadog**
+## <a name="step-16"></a>**Monitor Confluent Cloud with Datadog** (Optional)
 
 Instructions here: https://docs.datadoghq.com/integrations/confluent_cloud/
 
