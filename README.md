@@ -576,10 +576,7 @@ You will be exploring Confluent Cloud Schema Registry in more detail towards the
       <img src="images/sr-cluster.png" width=75% height=75%>
   </div>
 
-2. Click on **Schema Registry**. Select your cloud provider and region, and then click on **Enable Schema Registry**.
-  <div align="center">
-      <img src="images/sr-tab.png" width=75% height=75%>
-  </div>
+2. On the right of the page, in the section of **Stream Governance** under the **Stream Governance API**, you will get the Schema Registry information
 
 3. Next, you will create an API Key for Schema Registry. From here, click on the Edit icon under **API credentials**.
 4. Click on **Add key** and save your API key and secret - you will also need these during the workshop. Click on **Done**.
