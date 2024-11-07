@@ -154,7 +154,7 @@ An environment contains clusters and its deployed components such as Connectors,
 > **Note:** A Confluent Streaming Unit is the unit of pricing for Confluent Cloud ksqlDB. A CSU is an abstract unit that represents the size of your kSQL cluster and scales linearly. 
 
 <div align="center" padding=25px>
-    <img src="images/create-application.png" width=50% height=50%>
+    <img src="images/create-ksqldb.png" width=50% height=50%>
 </div>
 
 ***
