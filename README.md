@@ -573,7 +573,7 @@ You will be exploring Confluent Cloud Schema Registry in more detail towards the
 
 1. Return to your environment by clicking on the Confluent icon at the top left corner and then clicking your environment tile.
   <div align="center">
-      <img src="images/sr-cluster.png" width=75% height=75%>
+      <img src="images/sr-cluster-2024.png" width=75% height=75%>
   </div>
 
 2. On the right of the page, in the section of **Stream Governance** under the **Stream Governance API**, you will get the Schema Registry information
